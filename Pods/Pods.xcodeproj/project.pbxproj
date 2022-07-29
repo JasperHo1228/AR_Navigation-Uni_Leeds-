@@ -1,0 +1,1518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E7566663E28DF602443FD93A125D04 /* SceneLocationEstimate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FAB1D12511897B7BCD024A357F9643 /* SceneLocationEstimate+Extensions.swift */; };
+		093DD3645144A6CD184E51EFDED5AECD /* PolylineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883A37361025164D49CF62A5DB5714B /* PolylineNode.swift */; };
+		0ECA4E6FF844458E4DA082E154BA8339 /* SCNGeometry+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14B3231A90822B071D371E38755824 /* SCNGeometry+Extensions.swift */; };
+		111589934831A585CB01D3436F828C7C /* ARKit_CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82064921D0F60206A0A83145EE65A7EC /* ARKit_CoreLocation.swift */; };
+		1290EFA9DC91AADC76F408CF6D6EBD03 /* SCNPath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 337C8F5A239A1F0640F8EEEF4FC8A535 /* SCNPath-dummy.m */; };
+		16B4246B7A26274337F2326A01A2A577 /* SceneLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE31D8A7C5A65BF41684D5200AC76E2 /* SceneLocationManager.swift */; };
+		18BE50C17B82398622FB399C3539216C /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6705BAD7528D23244590ED35967700 /* FocusSquare.swift */; };
+		1E7FAB43929CB4195116D7A4B83224BE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F03883B49EB5CB65BBAA7219E4A970F /* MapKit.framework */; };
+		20C7800D3F1FBBE8A0891B4985D05E5E /* .swiftlint.yml in Sources */ = {isa = PBXBuildFile; fileRef = 108C0C7296E660BB2BA850DC92A4AE6F /* .swiftlint.yml */; };
+		23E1E37950EE16F27CB561B7A350AB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C16631F792B6F24944F0E2DF366F96 /* Foundation.framework */; };
+		2AA6044C4AB1D8445C3EF9621EDF2F8C /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882578576E0E0588BAF8435902E9814 /* SCNVector3+Extensions.swift */; };
+		2E79FD62B8247D51AABFDBDE91DF35E2 /* SceneLocationView+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EE499521A10076B897C234C4691A0C /* SceneLocationView+ARSCNViewDelegate.swift */; };
+		2F1934966E7F4A3BBD6E7093F7D0CD39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8439E46046AEE035FC4303D36CDF4596 /* UIKit.framework */; };
+		3445F603ED84FDE342277CAF2D706833 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C03D5E64ADF4C811F7072ECD30F8A5 /* ARKit.framework */; };
+		3AB13C50B13C050CD8783007CE7C054A /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B05C9A1CB1880729559A1F93799BBB9 /* SCNNode+Extensions.swift */; };
+		4295619DDD36669FC3B0D739DE4C4BDF /* CLLocation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C66847CD858CD579988D94F9A7CBF53 /* CLLocation+Extensions.swift */; };
+		4436900F3A2A63C7715C259906AE4F7F /* ScalingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF770277D4B348BB3BAF42A20760AC0 /* ScalingScheme.swift */; };
+		448A639A78204502ED38627395AF1ED3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C16631F792B6F24944F0E2DF366F96 /* Foundation.framework */; };
+		45449CD78E57320E95A21B34BAD96A4A /* LocationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9A6DA4AF4E7BD0793AC2B0161652B /* LocationNode.swift */; };
+		466889CFAA0671FAB10D3F875D4C796E /* CGRect+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720CDE1C4D5F4CF9F671672E0652065 /* CGRect+Ext.swift */; };
+		47F9EA41419E236E424080083CA7C0DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C16631F792B6F24944F0E2DF366F96 /* Foundation.framework */; };
+		4E54024DD408340042E46F593F613FE5 /* SmartHitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F4EF62B27F66D48537A821927B28A9 /* SmartHitTest.swift */; };
+		4FABF18E9AFD558C479425AF98EB808F /* SceneLocationEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3779F25C7610BDE9313082308892AD /* SceneLocationEstimate.swift */; };
+		5431D1BF8F68B19E88432B3F82BFFA59 /* InteractiveScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224702BFCC2B7C816244705027F03A8 /* InteractiveScene.swift */; };
+		5A360E09F0017A5C02BF584CFE36EB3E /* ARLandmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70043A446418BE8113FCDFF6C01CB640 /* ARLandmark.swift */; };
+		5F2664FF389F9E735E9CB7FD178FA4E5 /* FocusNode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE26E7D5BFB1F8076AFDF561AC1BF9B0 /* FocusNode-dummy.m */; };
+		64CE82A10A1BCCBE1E8A258CEB16B112 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA77E92FD63BCF5EF795EAA5939704B0 /* SceneKit.framework */; };
+		6BF7120FFE29DB647CC1A9739C50EDCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C16631F792B6F24944F0E2DF366F96 /* Foundation.framework */; };
+		6E931BB7D2A0E7AD87022664B16960E7 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689F569C4EE6A7CF093556CF17F26CD5 /* UIView+Ext.swift */; };
+		71DE5396FFC3B22DDFBE5C8A2D791984 /* Pods-landmarkar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE07DFA2389F5BCC14D0EB234C3F0734 /* Pods-landmarkar-dummy.m */; };
+		720778B1AB3CB3F235F194166622D60B /* SCNPath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD917347B9882AF5CBC5D92AAD051C9 /* SCNPath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73D0CB521434B00B8E3A884DBE20B54D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C898593AC086ADE4291AFB402F06BE0 /* LocationManager.swift */; };
+		77310C0F09EC7379C0BEEB6793DA0F50 /* ARCL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41610E5558510B31E0DBCFF4C4DB0FC /* ARCL-dummy.m */; };
+		7BD75FCE89460CBA89A84178881E062A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB13CAA84E4C5EF86902A1050421AD8C /* GLKit.framework */; };
+		816AA39453B8AFF6A6A3176D9D6C2F95 /* ARCL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 245241E512D20FC5233B48FCF6970093 /* ARCL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8336CE6322546BDFD468862BBA6DB91B /* ARLandmarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AD6055D862871EB8A6D3291A1DCB85 /* ARLandmarker.swift */; };
+		85EE31CFA490A37008B54069522C279A /* FloatingPoint+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB581B072023F6533E1BEF9339617A2 /* FloatingPoint+Radians.swift */; };
+		8787F69A553BA625E2CF4CD2E903026D /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FBCE9028E86FAD8FC1C089DB4D561A /* SCNVector3+Extensions.swift */; };
+		87A79CCDEB96AA36DE588929494D13B2 /* AttributedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7D3C8FDDBA2D9D109F83A722C24F5 /* AttributedType.swift */; };
+		89836B447721579B2445871D2CFD0850 /* FocusNode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2E49A6F76ED32379F8D47E6E5D6E04 /* FocusNode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		898AB73D8A90D151134302DFABEBE257 /* OverlappingARLandmarkStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0AD78C434CF0C029943E9DADD578D7 /* OverlappingARLandmarkStrategy.swift */; };
+		8AA621BCF76FF11378351D66B509E6F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8439E46046AEE035FC4303D36CDF4596 /* UIKit.framework */; };
+		8EF7BBE0E63C4D606B22F267C8CD6E63 /* ARCoreLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B4049D3CD19941ECA2D1857DA25C6 /* ARCoreLocation-dummy.m */; };
+		9234FFE111335F0FBC0203B67DD795BB /* FocusNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF293BE81522FED4F23F240CFB39EE63 /* FocusNode.swift */; };
+		9298928C7ED45DE4D91DD01A8F423AF5 /* SCNPathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30A1C618B3678BBC4C6E5266EF6DAD1 /* SCNPathNode.swift */; };
+		99E5705C39CB9411552FACAA8D44FAC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C16631F792B6F24944F0E2DF366F96 /* Foundation.framework */; };
+		9C36C0830B3EB32F6435ECC38DEE0A4F /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E353F71AA1CEE6B7553DB7CF82CE /* CGPoint+Extensions.swift */; };
+		A0D0F4B9A4125498B14CAAD80532667B /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C487E34AD7B23BBB2F29D395FDD75A29 /* Matrix.swift */; };
+		AFB2BC5E0E47440F59AC7DE5074AD079 /* float4x4+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B7738FF386756510665D4E8E5A7573 /* float4x4+Extension.swift */; };
+		B3D6EB9BC45D746AFDD0A16D95A4A2E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C16631F792B6F24944F0E2DF366F96 /* Foundation.framework */; };
+		B93D43F3EFE5216805A7FC3953E71326 /* Pods-landmarkar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8045621F905B889A983D04E28CC15F7 /* Pods-landmarkar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB11E25B494CBB79B456C3F78D55528F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62CD53B8D1D877B5AAA38B651765A51 /* CoreLocation.framework */; };
+		BC3D631431C5580805A4CD81D4A3A699 /* LocationAnnotationNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0815A9803836BEF804D0FA00FCC229B /* LocationAnnotationNode.swift */; };
+		C5B1C7BCBD61A981E9C9C11B22554FE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62CD53B8D1D877B5AAA38B651765A51 /* CoreLocation.framework */; };
+		CDCF63491F8E8A3E2C8B878EAF710C83 /* FocusSquare+Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9183703607A7B6D77A4D3FD823B5495A /* FocusSquare+Segment.swift */; };
+		CEF3BDE1A793F6005565B096B9C6BB20 /* SceneLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F0C8909D6FC2E0CCFF366CA64BC43D /* SceneLocationView.swift */; };
+		D3D7F2A13E46293F81E83DE087093C3F /* ARCoreLocation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB854A8BA2023ED07C46F83D5C1A4295 /* ARCoreLocation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D545E793E797BB09BDD5F90906B91150 /* SceneLocationViewEstimateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EA258128013AAB5AFD89176541E5D9 /* SceneLocationViewEstimateDelegate.swift */; };
+		D5F0889F952299C03892A55001FF98E6 /* SmartHitTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E267C52D3A64877427BC80D5A6110E /* SmartHitTest-dummy.m */; };
+		DC74D52369259C058AB60EB00A39DD6E /* BaseTypes+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FAA1CF4C3DCAAE053CDF9D318966F5 /* BaseTypes+Extensions.swift */; };
+		DDF3851CFF33D542120230E751CB4916 /* SmartHitTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C3C979FC2A6483DD84D22B56A4FEF8 /* SmartHitTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE0E85398FA68465D32189C3ED1A2AEA /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA77E92FD63BCF5EF795EAA5939704B0 /* SceneKit.framework */; };
+		E04DC0AFE9C79CEB60AB9A485AE7FB19 /* FocusPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82A126B6F005E66BF3161FB2CB660A /* FocusPlane.swift */; };
+		F4DA2DCE780BDFC88431B7B5C78888AA /* SetMerger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2856B7A526A9881933746115328C34 /* SetMerger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		276A9084C523D7F1067DE99A346446A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18615455FD49A3F7FA9ACC6265296169;
+			remoteInfo = SmartHitTest;
+		};
+		4C70ABF28A16F021D6E1BE67F15AFCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3A6763C07901EF7A15F730C26485FB7;
+			remoteInfo = ARCoreLocation;
+		};
+		4E8434E9ADAB569D563AE13AAC5B85E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAC227ECFE2C0011E6381D1536D947D;
+			remoteInfo = FocusNode;
+		};
+		703EDEFCE926E62BDF3A24710285AF6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E11655272516BA3786E76D9BB0C819;
+			remoteInfo = SCNPath;
+		};
+		93A11EAB0040FC125A6D879A7273C82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18615455FD49A3F7FA9ACC6265296169;
+			remoteInfo = SmartHitTest;
+		};
+		E731AD02E2B135749F4EBFF1C02F8B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB32E97F940371D391F6B8FB4F24AC15;
+			remoteInfo = ARCL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C16631F792B6F24944F0E2DF366F96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0FE31D8A7C5A65BF41684D5200AC76E2 /* SceneLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationManager.swift; path = "Sources/ARKit-CoreLocation/Location Manager/SceneLocationManager.swift"; sourceTree = "<group>"; };
+		101A656875805189CA1DCF322F011572 /* Pods-landmarkar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-landmarkar-acknowledgements.plist"; sourceTree = "<group>"; };
+		108C0C7296E660BB2BA850DC92A4AE6F /* .swiftlint.yml */ = {isa = PBXFileReference; includeInIndex = 1; path = .swiftlint.yml; sourceTree = "<group>"; };
+		12E267C52D3A64877427BC80D5A6110E /* SmartHitTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartHitTest-dummy.m"; sourceTree = "<group>"; };
+		17EE499521A10076B897C234C4691A0C /* SceneLocationView+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SceneLocationView+ARSCNViewDelegate.swift"; path = "Sources/ARKit-CoreLocation/SceneLocationView+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		1882578576E0E0588BAF8435902E9814 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNVector3+Extensions.swift"; path = "Sources/SCNPath/SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		1A6705BAD7528D23244590ED35967700 /* FocusSquare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusSquare.swift; path = Sources/FocusNode/FocusSquare.swift; sourceTree = "<group>"; };
+		1B05C9A1CB1880729559A1F93799BBB9 /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNNode+Extensions.swift"; path = "Sources/ARKit-CoreLocation/Extensions/SCNNode+Extensions.swift"; sourceTree = "<group>"; };
+		1DF3140B282B198A07F79A6E437714FF /* Pods-landmarkar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-landmarkar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2197FFF2518BB0C83559DBF6C675A962 /* FocusNode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FocusNode.debug.xcconfig; sourceTree = "<group>"; };
+		21B8C5BB08C0448C7310928E70138CA2 /* ARCoreLocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCoreLocation-prefix.pch"; sourceTree = "<group>"; };
+		23575E578981F8E14B7A6A74AD810BA9 /* ARCoreLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARCoreLocation.debug.xcconfig; sourceTree = "<group>"; };
+		245241E512D20FC5233B48FCF6970093 /* ARCL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCL-umbrella.h"; sourceTree = "<group>"; };
+		257894156F62FB8BBCF2855600CC27D1 /* Pods-landmarkar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-landmarkar-Info.plist"; sourceTree = "<group>"; };
+		2BE9A6DA4AF4E7BD0793AC2B0161652B /* LocationNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationNode.swift; path = "Sources/ARKit-CoreLocation/Nodes/LocationNode.swift"; sourceTree = "<group>"; };
+		2C61E353F71AA1CEE6B7553DB7CF82CE /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extensions.swift"; path = "Sources/ARKit-CoreLocation/Extensions/CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		32A7CBECF429D824E9DE445886EA9AD8 /* SCNPath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCNPath.modulemap; sourceTree = "<group>"; };
+		337C8F5A239A1F0640F8EEEF4FC8A535 /* SCNPath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCNPath-dummy.m"; sourceTree = "<group>"; };
+		369CB2218EFC616FB23FC9EDD5A829AC /* SCNPath */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCNPath; path = SCNPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B7738FF386756510665D4E8E5A7573 /* float4x4+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "float4x4+Extension.swift"; path = "Sources/FocusNode/float4x4+Extension.swift"; sourceTree = "<group>"; };
+		39AD6055D862871EB8A6D3291A1DCB85 /* ARLandmarker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARLandmarker.swift; path = ARCoreLocation/ARLandmarker.swift; sourceTree = "<group>"; };
+		39C03D5E64ADF4C811F7072ECD30F8A5 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ARKit.framework; sourceTree = DEVELOPER_DIR; };
+		3BF770277D4B348BB3BAF42A20760AC0 /* ScalingScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScalingScheme.swift; path = "Sources/ARKit-CoreLocation/Nodes/ScalingScheme.swift"; sourceTree = "<group>"; };
+		3C898593AC086ADE4291AFB402F06BE0 /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = "Sources/ARKit-CoreLocation/Location Manager/LocationManager.swift"; sourceTree = "<group>"; };
+		41372B96C19C55B791E463B479E5EE46 /* FocusNode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FocusNode-prefix.pch"; sourceTree = "<group>"; };
+		45C3C979FC2A6483DD84D22B56A4FEF8 /* SmartHitTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartHitTest-umbrella.h"; sourceTree = "<group>"; };
+		52185862D1009B8526FFECA3BE591024 /* ARCoreLocation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARCoreLocation.modulemap; sourceTree = "<group>"; };
+		5AE4320919AAABED4DBF93BD2EED339B /* ARCL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARCL.modulemap; sourceTree = "<group>"; };
+		5C66847CD858CD579988D94F9A7CBF53 /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocation+Extensions.swift"; path = "Sources/ARKit-CoreLocation/Extensions/CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		5E3AAC9308B5FE5BDDE514CA9885C0D7 /* SmartHitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartHitTest.release.xcconfig; sourceTree = "<group>"; };
+		5FB581B072023F6533E1BEF9339617A2 /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+Radians.swift"; path = "Sources/ARKit-CoreLocation/Extensions/FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
+		62F4EF62B27F66D48537A821927B28A9 /* SmartHitTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartHitTest.swift; path = Sources/SmartHitTest/SmartHitTest.swift; sourceTree = "<group>"; };
+		6426ADB6CC5E1D328B7D84DE6689C2D0 /* ARCL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARCL.release.xcconfig; sourceTree = "<group>"; };
+		64DD74D6A60A25ED9FFE53328996876C /* SmartHitTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmartHitTest; path = SmartHitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		689F569C4EE6A7CF093556CF17F26CD5 /* UIView+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Ext.swift"; path = "ARCoreLocation/Extensions/UIView+Ext.swift"; sourceTree = "<group>"; };
+		6D2856B7A526A9881933746115328C34 /* SetMerger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SetMerger.swift; path = ARCoreLocation/Utility/SetMerger.swift; sourceTree = "<group>"; };
+		6E8DE270501EE73FB69C59EC861178E7 /* ARCoreLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARCoreLocation.release.xcconfig; sourceTree = "<group>"; };
+		70043A446418BE8113FCDFF6C01CB640 /* ARLandmark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARLandmark.swift; path = ARCoreLocation/ARLandmark.swift; sourceTree = "<group>"; };
+		72CE3CA071BA0ABF02E9969A3087E417 /* SCNPath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCNPath.debug.xcconfig; sourceTree = "<group>"; };
+		77FC25A881F0309E3946DCF272E24EB3 /* SCNPath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCNPath.release.xcconfig; sourceTree = "<group>"; };
+		7BD917347B9882AF5CBC5D92AAD051C9 /* SCNPath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCNPath-umbrella.h"; sourceTree = "<group>"; };
+		7F58969E0875597CB3B81BA82E68DBD1 /* SmartHitTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartHitTest-prefix.pch"; sourceTree = "<group>"; };
+		82064921D0F60206A0A83145EE65A7EC /* ARKit_CoreLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARKit_CoreLocation.swift; path = "Sources/ARKit-CoreLocation/ARKit_CoreLocation.swift"; sourceTree = "<group>"; };
+		82EA258128013AAB5AFD89176541E5D9 /* SceneLocationViewEstimateDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationViewEstimateDelegate.swift; path = "Sources/ARKit-CoreLocation/SceneLocationViewEstimateDelegate.swift"; sourceTree = "<group>"; };
+		82FBCE9028E86FAD8FC1C089DB4D561A /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNVector3+Extensions.swift"; path = "Sources/ARKit-CoreLocation/Extensions/SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		83C277E8AA29B31EA4AE54B10ECAB7E5 /* FocusNode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FocusNode-Info.plist"; sourceTree = "<group>"; };
+		8439E46046AEE035FC4303D36CDF4596 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		847982E6C9B253ABFB669F975A4CD14F /* SmartHitTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SmartHitTest-Info.plist"; sourceTree = "<group>"; };
+		852B4049D3CD19941ECA2D1857DA25C6 /* ARCoreLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARCoreLocation-dummy.m"; sourceTree = "<group>"; };
+		89B1CFD2C97F12103451E34713844648 /* FocusNode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FocusNode.release.xcconfig; sourceTree = "<group>"; };
+		8B14B3231A90822B071D371E38755824 /* SCNGeometry+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SCNGeometry+Extensions.swift"; path = "Sources/SCNPath/SCNGeometry+Extensions.swift"; sourceTree = "<group>"; };
+		8F03883B49EB5CB65BBAA7219E4A970F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		9183703607A7B6D77A4D3FD823B5495A /* FocusSquare+Segment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FocusSquare+Segment.swift"; path = "Sources/FocusNode/FocusSquare+Segment.swift"; sourceTree = "<group>"; };
+		91FAB1D12511897B7BCD024A357F9643 /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SceneLocationEstimate+Extensions.swift"; path = "Sources/ARKit-CoreLocation/Location Manager/SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		93AC6E8C67379D559784381CA5689CA6 /* FocusNode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FocusNode.modulemap; sourceTree = "<group>"; };
+		94FAA1CF4C3DCAAE053CDF9D318966F5 /* BaseTypes+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BaseTypes+Extensions.swift"; path = "Sources/ARKit-CoreLocation/Extensions/BaseTypes+Extensions.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0AD78C434CF0C029943E9DADD578D7 /* OverlappingARLandmarkStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverlappingARLandmarkStrategy.swift; path = ARCoreLocation/OverlappingARLandmarkStrategy.swift; sourceTree = "<group>"; };
+		A05C90AF303EC20F939071D966A76C64 /* SmartHitTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmartHitTest.modulemap; sourceTree = "<group>"; };
+		A70E577E2E4E73A15F8B0D3840494C94 /* ARCL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARCL.debug.xcconfig; sourceTree = "<group>"; };
+		A8045621F905B889A983D04E28CC15F7 /* Pods-landmarkar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-landmarkar-umbrella.h"; sourceTree = "<group>"; };
+		A8F0C8909D6FC2E0CCFF366CA64BC43D /* SceneLocationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationView.swift; path = "Sources/ARKit-CoreLocation/SceneLocationView.swift"; sourceTree = "<group>"; };
+		AC82A126B6F005E66BF3161FB2CB660A /* FocusPlane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusPlane.swift; path = Sources/FocusNode/FocusPlane.swift; sourceTree = "<group>"; };
+		AE07DFA2389F5BCC14D0EB234C3F0734 /* Pods-landmarkar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-landmarkar-dummy.m"; sourceTree = "<group>"; };
+		B4691EA9AFE4205AF5E2FFC545CBB0B0 /* Pods-landmarkar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-landmarkar.release.xcconfig"; sourceTree = "<group>"; };
+		B5AD199D6E8D758AD498202D2691EFD8 /* ARCL-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCL-prefix.pch"; sourceTree = "<group>"; };
+		B63F95A2FD32E5C673060ECB6CC1AF39 /* ARCoreLocation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ARCoreLocation-Info.plist"; sourceTree = "<group>"; };
+		BC80CC33607CB45FD01F2D0403886415 /* ARCoreLocation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARCoreLocation; path = ARCoreLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C224702BFCC2B7C816244705027F03A8 /* InteractiveScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveScene.swift; path = ARCoreLocation/InteractiveScene.swift; sourceTree = "<group>"; };
+		C487E34AD7B23BBB2F29D395FDD75A29 /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = ARCoreLocation/Utility/Matrix.swift; sourceTree = "<group>"; };
+		C73026644BC91DE04D44A5E4BDFA582E /* Pods-landmarkar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-landmarkar.modulemap"; sourceTree = "<group>"; };
+		C7ADEE321186A59406F16630332B9832 /* ARCL */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARCL; path = ARCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB13CAA84E4C5EF86902A1050421AD8C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		CB854A8BA2023ED07C46F83D5C1A4295 /* ARCoreLocation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARCoreLocation-umbrella.h"; sourceTree = "<group>"; };
+		CCF36B349CE6C373177C57CD70734C2F /* Pods-landmarkar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-landmarkar-frameworks.sh"; sourceTree = "<group>"; };
+		CE26E7D5BFB1F8076AFDF561AC1BF9B0 /* FocusNode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FocusNode-dummy.m"; sourceTree = "<group>"; };
+		D0815A9803836BEF804D0FA00FCC229B /* LocationAnnotationNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationAnnotationNode.swift; path = "Sources/ARKit-CoreLocation/Nodes/LocationAnnotationNode.swift"; sourceTree = "<group>"; };
+		D79470970158C82DB1294A2A37E88AFF /* SCNPath-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCNPath-Info.plist"; sourceTree = "<group>"; };
+		D9E7D3C8FDDBA2D9D109F83A722C24F5 /* AttributedType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedType.swift; path = "Sources/ARKit-CoreLocation/Util/AttributedType.swift"; sourceTree = "<group>"; };
+		DAD10701B7774069AEC2B2F2F4872A8D /* Pods-landmarkar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-landmarkar.debug.xcconfig"; sourceTree = "<group>"; };
+		DC516DE6BE5DB48486BB2BEE92087465 /* SmartHitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartHitTest.debug.xcconfig; sourceTree = "<group>"; };
+		DC5A6FC80D4D55A9B57866E753C42383 /* ARCL-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ARCL-Info.plist"; sourceTree = "<group>"; };
+		DD3779F25C7610BDE9313082308892AD /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneLocationEstimate.swift; path = "Sources/ARKit-CoreLocation/Location Manager/SceneLocationEstimate.swift"; sourceTree = "<group>"; };
+		DD9EF3A4CCB34FBF9DF4BCCC36B3EF77 /* Pods-landmarkar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-landmarkar"; path = Pods_landmarkar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF293BE81522FED4F23F240CFB39EE63 /* FocusNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusNode.swift; path = Sources/FocusNode/FocusNode.swift; sourceTree = "<group>"; };
+		DF2E49A6F76ED32379F8D47E6E5D6E04 /* FocusNode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FocusNode-umbrella.h"; sourceTree = "<group>"; };
+		E30A1C618B3678BBC4C6E5266EF6DAD1 /* SCNPathNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCNPathNode.swift; path = Sources/SCNPath/SCNPathNode.swift; sourceTree = "<group>"; };
+		E41610E5558510B31E0DBCFF4C4DB0FC /* ARCL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARCL-dummy.m"; sourceTree = "<group>"; };
+		E62CD53B8D1D877B5AAA38B651765A51 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		E9917F53A2AA4E5D5D1C8E159B20CBCA /* FocusNode */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FocusNode; path = FocusNode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA77E92FD63BCF5EF795EAA5939704B0 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
+		EB6343CC6F10882EDBB6F68FEAD379C1 /* SCNPath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCNPath-prefix.pch"; sourceTree = "<group>"; };
+		F720CDE1C4D5F4CF9F671672E0652065 /* CGRect+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Ext.swift"; path = "ARCoreLocation/Extensions/CGRect+Ext.swift"; sourceTree = "<group>"; };
+		F883A37361025164D49CF62A5DB5714B /* PolylineNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PolylineNode.swift; path = "Sources/ARKit-CoreLocation/Nodes/PolylineNode.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39933282E761F97A364B6602CDE2A3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF7120FFE29DB647CC1A9739C50EDCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F814050BF89009CBCE3A0D8919AC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E1E37950EE16F27CB561B7A350AB06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC68ED855C1FF5C94DF290093A2FEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F9EA41419E236E424080083CA7C0DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAA93ED5AD6A342EE908B953C87BE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448A639A78204502ED38627395AF1ED3 /* Foundation.framework in Frameworks */,
+				64CE82A10A1BCCBE1E8A258CEB16B112 /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C81554B8648505CBF6C3CABA3E725EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B1C7BCBD61A981E9C9C11B22554FE5 /* CoreLocation.framework in Frameworks */,
+				B3D6EB9BC45D746AFDD0A16D95A4A2E4 /* Foundation.framework in Frameworks */,
+				1E7FAB43929CB4195116D7A4B83224BE /* MapKit.framework in Frameworks */,
+				DE0E85398FA68465D32189C3ED1A2AEA /* SceneKit.framework in Frameworks */,
+				8AA621BCF76FF11378351D66B509E6F8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EA54F354612675924287DADAC6DF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3445F603ED84FDE342277CAF2D706833 /* ARKit.framework in Frameworks */,
+				BB11E25B494CBB79B456C3F78D55528F /* CoreLocation.framework in Frameworks */,
+				99E5705C39CB9411552FACAA8D44FAC4 /* Foundation.framework in Frameworks */,
+				7BD75FCE89460CBA89A84178881E062A /* GLKit.framework in Frameworks */,
+				2F1934966E7F4A3BBD6E7093F7D0CD39 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108078DD9E3AD6AA2F4C9AF0D20BCFC3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				39C03D5E64ADF4C811F7072ECD30F8A5 /* ARKit.framework */,
+				E62CD53B8D1D877B5AAA38B651765A51 /* CoreLocation.framework */,
+				07C16631F792B6F24944F0E2DF366F96 /* Foundation.framework */,
+				CB13CAA84E4C5EF86902A1050421AD8C /* GLKit.framework */,
+				8F03883B49EB5CB65BBAA7219E4A970F /* MapKit.framework */,
+				EA77E92FD63BCF5EF795EAA5939704B0 /* SceneKit.framework */,
+				8439E46046AEE035FC4303D36CDF4596 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2AA44F0ACAC2924F19310721918DFA9C /* ARCL */ = {
+			isa = PBXGroup;
+			children = (
+				82064921D0F60206A0A83145EE65A7EC /* ARKit_CoreLocation.swift */,
+				D9E7D3C8FDDBA2D9D109F83A722C24F5 /* AttributedType.swift */,
+				94FAA1CF4C3DCAAE053CDF9D318966F5 /* BaseTypes+Extensions.swift */,
+				2C61E353F71AA1CEE6B7553DB7CF82CE /* CGPoint+Extensions.swift */,
+				5C66847CD858CD579988D94F9A7CBF53 /* CLLocation+Extensions.swift */,
+				5FB581B072023F6533E1BEF9339617A2 /* FloatingPoint+Radians.swift */,
+				D0815A9803836BEF804D0FA00FCC229B /* LocationAnnotationNode.swift */,
+				3C898593AC086ADE4291AFB402F06BE0 /* LocationManager.swift */,
+				2BE9A6DA4AF4E7BD0793AC2B0161652B /* LocationNode.swift */,
+				F883A37361025164D49CF62A5DB5714B /* PolylineNode.swift */,
+				3BF770277D4B348BB3BAF42A20760AC0 /* ScalingScheme.swift */,
+				DD3779F25C7610BDE9313082308892AD /* SceneLocationEstimate.swift */,
+				91FAB1D12511897B7BCD024A357F9643 /* SceneLocationEstimate+Extensions.swift */,
+				0FE31D8A7C5A65BF41684D5200AC76E2 /* SceneLocationManager.swift */,
+				A8F0C8909D6FC2E0CCFF366CA64BC43D /* SceneLocationView.swift */,
+				17EE499521A10076B897C234C4691A0C /* SceneLocationView+ARSCNViewDelegate.swift */,
+				82EA258128013AAB5AFD89176541E5D9 /* SceneLocationViewEstimateDelegate.swift */,
+				1B05C9A1CB1880729559A1F93799BBB9 /* SCNNode+Extensions.swift */,
+				82FBCE9028E86FAD8FC1C089DB4D561A /* SCNVector3+Extensions.swift */,
+				D9F3147FB98D5FE95B43232D563FCE30 /* Support Files */,
+			);
+			name = ARCL;
+			path = ARCL;
+			sourceTree = "<group>";
+		};
+		2F632D7315F8A3626C46913AF3FE5393 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93AC6E8C67379D559784381CA5689CA6 /* FocusNode.modulemap */,
+				CE26E7D5BFB1F8076AFDF561AC1BF9B0 /* FocusNode-dummy.m */,
+				83C277E8AA29B31EA4AE54B10ECAB7E5 /* FocusNode-Info.plist */,
+				41372B96C19C55B791E463B479E5EE46 /* FocusNode-prefix.pch */,
+				DF2E49A6F76ED32379F8D47E6E5D6E04 /* FocusNode-umbrella.h */,
+				2197FFF2518BB0C83559DBF6C675A962 /* FocusNode.debug.xcconfig */,
+				89B1CFD2C97F12103451E34713844648 /* FocusNode.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FocusNode";
+			sourceTree = "<group>";
+		};
+		3D1A6656B8BE3C1AB07C4AF18D805E1A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB6425158CCED15DAA21B3336A9934BB /* Pods-landmarkar */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A9DCD3FD8BCC0D6DBEC88FDE38F954F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52185862D1009B8526FFECA3BE591024 /* ARCoreLocation.modulemap */,
+				852B4049D3CD19941ECA2D1857DA25C6 /* ARCoreLocation-dummy.m */,
+				B63F95A2FD32E5C673060ECB6CC1AF39 /* ARCoreLocation-Info.plist */,
+				21B8C5BB08C0448C7310928E70138CA2 /* ARCoreLocation-prefix.pch */,
+				CB854A8BA2023ED07C46F83D5C1A4295 /* ARCoreLocation-umbrella.h */,
+				23575E578981F8E14B7A6A74AD810BA9 /* ARCoreLocation.debug.xcconfig */,
+				6E8DE270501EE73FB69C59EC861178E7 /* ARCoreLocation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ARCoreLocation";
+			sourceTree = "<group>";
+		};
+		4C8AB6311893CA0B1B324198B986650D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A7CBECF429D824E9DE445886EA9AD8 /* SCNPath.modulemap */,
+				337C8F5A239A1F0640F8EEEF4FC8A535 /* SCNPath-dummy.m */,
+				D79470970158C82DB1294A2A37E88AFF /* SCNPath-Info.plist */,
+				EB6343CC6F10882EDBB6F68FEAD379C1 /* SCNPath-prefix.pch */,
+				7BD917347B9882AF5CBC5D92AAD051C9 /* SCNPath-umbrella.h */,
+				72CE3CA071BA0ABF02E9969A3087E417 /* SCNPath.debug.xcconfig */,
+				77FC25A881F0309E3946DCF272E24EB3 /* SCNPath.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCNPath";
+			sourceTree = "<group>";
+		};
+		8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				108078DD9E3AD6AA2F4C9AF0D20BCFC3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841670678F7D62900E20F04E80635779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7ADEE321186A59406F16630332B9832 /* ARCL */,
+				BC80CC33607CB45FD01F2D0403886415 /* ARCoreLocation */,
+				E9917F53A2AA4E5D5D1C8E159B20CBCA /* FocusNode */,
+				DD9EF3A4CCB34FBF9DF4BCCC36B3EF77 /* Pods-landmarkar */,
+				369CB2218EFC616FB23FC9EDD5A829AC /* SCNPath */,
+				64DD74D6A60A25ED9FFE53328996876C /* SmartHitTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B21C2AFFC1CFBD3EAC5FCF86A5DCD240 /* ARCoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				70043A446418BE8113FCDFF6C01CB640 /* ARLandmark.swift */,
+				39AD6055D862871EB8A6D3291A1DCB85 /* ARLandmarker.swift */,
+				F720CDE1C4D5F4CF9F671672E0652065 /* CGRect+Ext.swift */,
+				C224702BFCC2B7C816244705027F03A8 /* InteractiveScene.swift */,
+				C487E34AD7B23BBB2F29D395FDD75A29 /* Matrix.swift */,
+				9F0AD78C434CF0C029943E9DADD578D7 /* OverlappingARLandmarkStrategy.swift */,
+				6D2856B7A526A9881933746115328C34 /* SetMerger.swift */,
+				689F569C4EE6A7CF093556CF17F26CD5 /* UIView+Ext.swift */,
+				4A9DCD3FD8BCC0D6DBEC88FDE38F954F /* Support Files */,
+			);
+			name = ARCoreLocation;
+			path = ARCoreLocation;
+			sourceTree = "<group>";
+		};
+		BB6425158CCED15DAA21B3336A9934BB /* Pods-landmarkar */ = {
+			isa = PBXGroup;
+			children = (
+				C73026644BC91DE04D44A5E4BDFA582E /* Pods-landmarkar.modulemap */,
+				1DF3140B282B198A07F79A6E437714FF /* Pods-landmarkar-acknowledgements.markdown */,
+				101A656875805189CA1DCF322F011572 /* Pods-landmarkar-acknowledgements.plist */,
+				AE07DFA2389F5BCC14D0EB234C3F0734 /* Pods-landmarkar-dummy.m */,
+				CCF36B349CE6C373177C57CD70734C2F /* Pods-landmarkar-frameworks.sh */,
+				257894156F62FB8BBCF2855600CC27D1 /* Pods-landmarkar-Info.plist */,
+				A8045621F905B889A983D04E28CC15F7 /* Pods-landmarkar-umbrella.h */,
+				DAD10701B7774069AEC2B2F2F4872A8D /* Pods-landmarkar.debug.xcconfig */,
+				B4691EA9AFE4205AF5E2FFC545CBB0B0 /* Pods-landmarkar.release.xcconfig */,
+			);
+			name = "Pods-landmarkar";
+			path = "Target Support Files/Pods-landmarkar";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
+				DA4601B8C55581CDD89B6E0BD246904E /* Pods */,
+				841670678F7D62900E20F04E80635779 /* Products */,
+				3D1A6656B8BE3C1AB07C4AF18D805E1A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F3147FB98D5FE95B43232D563FCE30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE4320919AAABED4DBF93BD2EED339B /* ARCL.modulemap */,
+				E41610E5558510B31E0DBCFF4C4DB0FC /* ARCL-dummy.m */,
+				DC5A6FC80D4D55A9B57866E753C42383 /* ARCL-Info.plist */,
+				B5AD199D6E8D758AD498202D2691EFD8 /* ARCL-prefix.pch */,
+				245241E512D20FC5233B48FCF6970093 /* ARCL-umbrella.h */,
+				A70E577E2E4E73A15F8B0D3840494C94 /* ARCL.debug.xcconfig */,
+				6426ADB6CC5E1D328B7D84DE6689C2D0 /* ARCL.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ARCL";
+			sourceTree = "<group>";
+		};
+		DA4601B8C55581CDD89B6E0BD246904E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AA44F0ACAC2924F19310721918DFA9C /* ARCL */,
+				B21C2AFFC1CFBD3EAC5FCF86A5DCD240 /* ARCoreLocation */,
+				DD770C7CE1D33CA2A08A9B9DC9AED541 /* FocusNode */,
+				F07AC729C304B50CF0D7200038DBD131 /* SCNPath */,
+				FF5348C9A42E392CC38BB7D5A68D858F /* SmartHitTest */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD770C7CE1D33CA2A08A9B9DC9AED541 /* FocusNode */ = {
+			isa = PBXGroup;
+			children = (
+				36B7738FF386756510665D4E8E5A7573 /* float4x4+Extension.swift */,
+				DF293BE81522FED4F23F240CFB39EE63 /* FocusNode.swift */,
+				AC82A126B6F005E66BF3161FB2CB660A /* FocusPlane.swift */,
+				1A6705BAD7528D23244590ED35967700 /* FocusSquare.swift */,
+				9183703607A7B6D77A4D3FD823B5495A /* FocusSquare+Segment.swift */,
+				2F632D7315F8A3626C46913AF3FE5393 /* Support Files */,
+			);
+			name = FocusNode;
+			path = FocusNode;
+			sourceTree = "<group>";
+		};
+		F07AC729C304B50CF0D7200038DBD131 /* SCNPath */ = {
+			isa = PBXGroup;
+			children = (
+				108C0C7296E660BB2BA850DC92A4AE6F /* .swiftlint.yml */,
+				8B14B3231A90822B071D371E38755824 /* SCNGeometry+Extensions.swift */,
+				E30A1C618B3678BBC4C6E5266EF6DAD1 /* SCNPathNode.swift */,
+				1882578576E0E0588BAF8435902E9814 /* SCNVector3+Extensions.swift */,
+				4C8AB6311893CA0B1B324198B986650D /* Support Files */,
+			);
+			name = SCNPath;
+			path = SCNPath;
+			sourceTree = "<group>";
+		};
+		FAF198167EEDCE373D884F4F23D632AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A05C90AF303EC20F939071D966A76C64 /* SmartHitTest.modulemap */,
+				12E267C52D3A64877427BC80D5A6110E /* SmartHitTest-dummy.m */,
+				847982E6C9B253ABFB669F975A4CD14F /* SmartHitTest-Info.plist */,
+				7F58969E0875597CB3B81BA82E68DBD1 /* SmartHitTest-prefix.pch */,
+				45C3C979FC2A6483DD84D22B56A4FEF8 /* SmartHitTest-umbrella.h */,
+				DC516DE6BE5DB48486BB2BEE92087465 /* SmartHitTest.debug.xcconfig */,
+				5E3AAC9308B5FE5BDDE514CA9885C0D7 /* SmartHitTest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SmartHitTest";
+			sourceTree = "<group>";
+		};
+		FF5348C9A42E392CC38BB7D5A68D858F /* SmartHitTest */ = {
+			isa = PBXGroup;
+			children = (
+				62F4EF62B27F66D48537A821927B28A9 /* SmartHitTest.swift */,
+				FAF198167EEDCE373D884F4F23D632AE /* Support Files */,
+			);
+			name = SmartHitTest;
+			path = SmartHitTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BE011344EE20ECB32EB7F161086F595 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89836B447721579B2445871D2CFD0850 /* FocusNode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AE795C586359AE993B4EE3A4250D5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93D43F3EFE5216805A7FC3953E71326 /* Pods-landmarkar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897FDAFC0F2E5DF1BB31506A0D6B64A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816AA39453B8AFF6A6A3176D9D6C2F95 /* ARCL-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CE0238183D7A3ED4DC444B349D60FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF3851CFF33D542120230E751CB4916 /* SmartHitTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F19EC6C4D73AB1D8B97A114019FDFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D7F2A13E46293F81E83DE087093C3F /* ARCoreLocation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79EF766B7E634AAE8CA849511D1D8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720778B1AB3CB3F235F194166622D60B /* SCNPath-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18615455FD49A3F7FA9ACC6265296169 /* SmartHitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C2752876705FBD12C6C9AF9860D08D3 /* Build configuration list for PBXNativeTarget "SmartHitTest" */;
+			buildPhases = (
+				C2CE0238183D7A3ED4DC444B349D60FE /* Headers */,
+				7597E7DAA814EB07B437B026220BBCC2 /* Sources */,
+				5CC68ED855C1FF5C94DF290093A2FEE0 /* Frameworks */,
+				7DA1C6BC82C58846C8F80BE1384E6522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHitTest;
+			productName = SmartHitTest;
+			productReference = 64DD74D6A60A25ED9FFE53328996876C /* SmartHitTest */;
+			productType = "com.apple.product-type.framework";
+		};
+		48E11655272516BA3786E76D9BB0C819 /* SCNPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F7D09FAD1C6D80583993122620C155 /* Build configuration list for PBXNativeTarget "SCNPath" */;
+			buildPhases = (
+				EB79EF766B7E634AAE8CA849511D1D8C /* Headers */,
+				6D8122AD09E10B08F7056D1430FB9349 /* Sources */,
+				6DAA93ED5AD6A342EE908B953C87BE90 /* Frameworks */,
+				C1DC2DA98818336B6CB149A561441CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCNPath;
+			productName = SCNPath;
+			productReference = 369CB2218EFC616FB23FC9EDD5A829AC /* SCNPath */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B491725F427E273112F29C4DCE8B994 /* Pods-landmarkar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3153B522FAC7F2F20E601898A82DF304 /* Build configuration list for PBXNativeTarget "Pods-landmarkar" */;
+			buildPhases = (
+				85AE795C586359AE993B4EE3A4250D5D /* Headers */,
+				A9049DF4E5A335D635043C8568A8391E /* Sources */,
+				43F814050BF89009CBCE3A0D8919AC11 /* Frameworks */,
+				BC624083174318678F35BD9CF33F977A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61931C22B39E4C231A99942FBC72F4A2 /* PBXTargetDependency */,
+				7BF1C0963B9496B04DE3CA4FC3926F11 /* PBXTargetDependency */,
+				8717910DE9AD69027306C7D3167391A9 /* PBXTargetDependency */,
+				92B30C5938534F728F4733111B3D0B03 /* PBXTargetDependency */,
+				3BE57F6F698F9860E15036CCBE5FA2A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-landmarkar";
+			productName = Pods_landmarkar;
+			productReference = DD9EF3A4CCB34FBF9DF4BCCC36B3EF77 /* Pods-landmarkar */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB32E97F940371D391F6B8FB4F24AC15 /* ARCL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D210C6B4BD8D7B0D25C315D9B540345F /* Build configuration list for PBXNativeTarget "ARCL" */;
+			buildPhases = (
+				897FDAFC0F2E5DF1BB31506A0D6B64A1 /* Headers */,
+				B1863439C8869F7D7ABC050E9309947F /* Sources */,
+				7C81554B8648505CBF6C3CABA3E725EE /* Frameworks */,
+				68CBC52A592BF66AA1080FF847025AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCL;
+			productName = ARCL;
+			productReference = C7ADEE321186A59406F16630332B9832 /* ARCL */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFAC227ECFE2C0011E6381D1536D947D /* FocusNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF3125433D37F6899B54FEE9BB2E032 /* Build configuration list for PBXNativeTarget "FocusNode" */;
+			buildPhases = (
+				5BE011344EE20ECB32EB7F161086F595 /* Headers */,
+				978EB7BB72D560B05A969E0893F8E4BB /* Sources */,
+				39933282E761F97A364B6602CDE2A3C4 /* Frameworks */,
+				4C7A2211BBC9FC8F95609113C5AD9B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69CDD5788AB25B940465A01A08E4D200 /* PBXTargetDependency */,
+			);
+			name = FocusNode;
+			productName = FocusNode;
+			productReference = E9917F53A2AA4E5D5D1C8E159B20CBCA /* FocusNode */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3A6763C07901EF7A15F730C26485FB7 /* ARCoreLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6AE7EBE75FB0F7B984BB5EDCC488E4 /* Build configuration list for PBXNativeTarget "ARCoreLocation" */;
+			buildPhases = (
+				E8F19EC6C4D73AB1D8B97A114019FDFF /* Headers */,
+				4C778DD6E9D573D4C772CD04D65BA968 /* Sources */,
+				A6EA54F354612675924287DADAC6DF06 /* Frameworks */,
+				8055734707B2E71DA59677932268765A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCoreLocation;
+			productName = ARCoreLocation;
+			productReference = BC80CC33607CB45FD01F2D0403886415 /* ARCoreLocation */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 841670678F7D62900E20F04E80635779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB32E97F940371D391F6B8FB4F24AC15 /* ARCL */,
+				E3A6763C07901EF7A15F730C26485FB7 /* ARCoreLocation */,
+				CFAC227ECFE2C0011E6381D1536D947D /* FocusNode */,
+				7B491725F427E273112F29C4DCE8B994 /* Pods-landmarkar */,
+				48E11655272516BA3786E76D9BB0C819 /* SCNPath */,
+				18615455FD49A3F7FA9ACC6265296169 /* SmartHitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C7A2211BBC9FC8F95609113C5AD9B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CBC52A592BF66AA1080FF847025AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA1C6BC82C58846C8F80BE1384E6522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8055734707B2E71DA59677932268765A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC624083174318678F35BD9CF33F977A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1DC2DA98818336B6CB149A561441CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C778DD6E9D573D4C772CD04D65BA968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF7BBE0E63C4D606B22F267C8CD6E63 /* ARCoreLocation-dummy.m in Sources */,
+				5A360E09F0017A5C02BF584CFE36EB3E /* ARLandmark.swift in Sources */,
+				8336CE6322546BDFD468862BBA6DB91B /* ARLandmarker.swift in Sources */,
+				466889CFAA0671FAB10D3F875D4C796E /* CGRect+Ext.swift in Sources */,
+				5431D1BF8F68B19E88432B3F82BFFA59 /* InteractiveScene.swift in Sources */,
+				A0D0F4B9A4125498B14CAAD80532667B /* Matrix.swift in Sources */,
+				898AB73D8A90D151134302DFABEBE257 /* OverlappingARLandmarkStrategy.swift in Sources */,
+				F4DA2DCE780BDFC88431B7B5C78888AA /* SetMerger.swift in Sources */,
+				6E931BB7D2A0E7AD87022664B16960E7 /* UIView+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8122AD09E10B08F7056D1430FB9349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C7800D3F1FBBE8A0891B4985D05E5E /* .swiftlint.yml in Sources */,
+				0ECA4E6FF844458E4DA082E154BA8339 /* SCNGeometry+Extensions.swift in Sources */,
+				1290EFA9DC91AADC76F408CF6D6EBD03 /* SCNPath-dummy.m in Sources */,
+				9298928C7ED45DE4D91DD01A8F423AF5 /* SCNPathNode.swift in Sources */,
+				2AA6044C4AB1D8445C3EF9621EDF2F8C /* SCNVector3+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7597E7DAA814EB07B437B026220BBCC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E54024DD408340042E46F593F613FE5 /* SmartHitTest.swift in Sources */,
+				D5F0889F952299C03892A55001FF98E6 /* SmartHitTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		978EB7BB72D560B05A969E0893F8E4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB2BC5E0E47440F59AC7DE5074AD079 /* float4x4+Extension.swift in Sources */,
+				9234FFE111335F0FBC0203B67DD795BB /* FocusNode.swift in Sources */,
+				5F2664FF389F9E735E9CB7FD178FA4E5 /* FocusNode-dummy.m in Sources */,
+				E04DC0AFE9C79CEB60AB9A485AE7FB19 /* FocusPlane.swift in Sources */,
+				18BE50C17B82398622FB399C3539216C /* FocusSquare.swift in Sources */,
+				CDCF63491F8E8A3E2C8B878EAF710C83 /* FocusSquare+Segment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9049DF4E5A335D635043C8568A8391E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DE5396FFC3B22DDFBE5C8A2D791984 /* Pods-landmarkar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1863439C8869F7D7ABC050E9309947F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77310C0F09EC7379C0BEEB6793DA0F50 /* ARCL-dummy.m in Sources */,
+				111589934831A585CB01D3436F828C7C /* ARKit_CoreLocation.swift in Sources */,
+				87A79CCDEB96AA36DE588929494D13B2 /* AttributedType.swift in Sources */,
+				DC74D52369259C058AB60EB00A39DD6E /* BaseTypes+Extensions.swift in Sources */,
+				9C36C0830B3EB32F6435ECC38DEE0A4F /* CGPoint+Extensions.swift in Sources */,
+				4295619DDD36669FC3B0D739DE4C4BDF /* CLLocation+Extensions.swift in Sources */,
+				85EE31CFA490A37008B54069522C279A /* FloatingPoint+Radians.swift in Sources */,
+				BC3D631431C5580805A4CD81D4A3A699 /* LocationAnnotationNode.swift in Sources */,
+				73D0CB521434B00B8E3A884DBE20B54D /* LocationManager.swift in Sources */,
+				45449CD78E57320E95A21B34BAD96A4A /* LocationNode.swift in Sources */,
+				093DD3645144A6CD184E51EFDED5AECD /* PolylineNode.swift in Sources */,
+				4436900F3A2A63C7715C259906AE4F7F /* ScalingScheme.swift in Sources */,
+				4FABF18E9AFD558C479425AF98EB808F /* SceneLocationEstimate.swift in Sources */,
+				00E7566663E28DF602443FD93A125D04 /* SceneLocationEstimate+Extensions.swift in Sources */,
+				16B4246B7A26274337F2326A01A2A577 /* SceneLocationManager.swift in Sources */,
+				CEF3BDE1A793F6005565B096B9C6BB20 /* SceneLocationView.swift in Sources */,
+				2E79FD62B8247D51AABFDBDE91DF35E2 /* SceneLocationView+ARSCNViewDelegate.swift in Sources */,
+				D545E793E797BB09BDD5F90906B91150 /* SceneLocationViewEstimateDelegate.swift in Sources */,
+				3AB13C50B13C050CD8783007CE7C054A /* SCNNode+Extensions.swift in Sources */,
+				8787F69A553BA625E2CF4CD2E903026D /* SCNVector3+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BE57F6F698F9860E15036CCBE5FA2A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartHitTest;
+			target = 18615455FD49A3F7FA9ACC6265296169 /* SmartHitTest */;
+			targetProxy = 93A11EAB0040FC125A6D879A7273C82C /* PBXContainerItemProxy */;
+		};
+		61931C22B39E4C231A99942FBC72F4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARCL;
+			target = BB32E97F940371D391F6B8FB4F24AC15 /* ARCL */;
+			targetProxy = E731AD02E2B135749F4EBFF1C02F8B8E /* PBXContainerItemProxy */;
+		};
+		69CDD5788AB25B940465A01A08E4D200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartHitTest;
+			target = 18615455FD49A3F7FA9ACC6265296169 /* SmartHitTest */;
+			targetProxy = 276A9084C523D7F1067DE99A346446A1 /* PBXContainerItemProxy */;
+		};
+		7BF1C0963B9496B04DE3CA4FC3926F11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARCoreLocation;
+			target = E3A6763C07901EF7A15F730C26485FB7 /* ARCoreLocation */;
+			targetProxy = 4C70ABF28A16F021D6E1BE67F15AFCCF /* PBXContainerItemProxy */;
+		};
+		8717910DE9AD69027306C7D3167391A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FocusNode;
+			target = CFAC227ECFE2C0011E6381D1536D947D /* FocusNode */;
+			targetProxy = 4E8434E9ADAB569D563AE13AAC5B85E5 /* PBXContainerItemProxy */;
+		};
+		92B30C5938534F728F4733111B3D0B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCNPath;
+			target = 48E11655272516BA3786E76D9BB0C819 /* SCNPath */;
+			targetProxy = 703EDEFCE926E62BDF3A24710285AF6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001AF92A76205DB41532576CC1EF6440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6426ADB6CC5E1D328B7D84DE6689C2D0 /* ARCL.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARCL/ARCL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARCL/ARCL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARCL/ARCL.modulemap";
+				PRODUCT_MODULE_NAME = ARCL;
+				PRODUCT_NAME = ARCL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3962E46109050C128E55C1182759C06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B1CFD2C97F12103451E34713844648 /* FocusNode.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FocusNode/FocusNode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FocusNode/FocusNode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FocusNode/FocusNode.modulemap";
+				PRODUCT_MODULE_NAME = FocusNode;
+				PRODUCT_NAME = FocusNode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D6712703D84A21B963713CCF2D99FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3AAC9308B5FE5BDDE514CA9885C0D7 /* SmartHitTest.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartHitTest/SmartHitTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartHitTest/SmartHitTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmartHitTest/SmartHitTest.modulemap";
+				PRODUCT_MODULE_NAME = SmartHitTest;
+				PRODUCT_NAME = SmartHitTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66D2E1AA74001F0F03B7F7A476495684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72CE3CA071BA0ABF02E9969A3087E417 /* SCNPath.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCNPath/SCNPath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCNPath/SCNPath-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCNPath/SCNPath.modulemap";
+				PRODUCT_MODULE_NAME = SCNPath;
+				PRODUCT_NAME = SCNPath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E62B762B3962DCFEE53E0CB2D823619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD10701B7774069AEC2B2F2F4872A8D /* Pods-landmarkar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-landmarkar/Pods-landmarkar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-landmarkar/Pods-landmarkar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6D46BF1E62188966626D0B0EB8668AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4691EA9AFE4205AF5E2FFC545CBB0B0 /* Pods-landmarkar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-landmarkar/Pods-landmarkar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-landmarkar/Pods-landmarkar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C156B394FB7DD55AC41D2A24BAD28116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC516DE6BE5DB48486BB2BEE92087465 /* SmartHitTest.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartHitTest/SmartHitTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartHitTest/SmartHitTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SmartHitTest/SmartHitTest.modulemap";
+				PRODUCT_MODULE_NAME = SmartHitTest;
+				PRODUCT_NAME = SmartHitTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7AF5572050F7A8F104F839F1F0718D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E8DE270501EE73FB69C59EC861178E7 /* ARCoreLocation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARCoreLocation/ARCoreLocation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARCoreLocation/ARCoreLocation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARCoreLocation/ARCoreLocation.modulemap";
+				PRODUCT_MODULE_NAME = ARCoreLocation;
+				PRODUCT_NAME = ARCoreLocation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C886FA8552EF8AB1FF6988177C3662E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23575E578981F8E14B7A6A74AD810BA9 /* ARCoreLocation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARCoreLocation/ARCoreLocation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARCoreLocation/ARCoreLocation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARCoreLocation/ARCoreLocation.modulemap";
+				PRODUCT_MODULE_NAME = ARCoreLocation;
+				PRODUCT_NAME = ARCoreLocation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D42B61F287E7B8AED974D87E993BB82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70E577E2E4E73A15F8B0D3840494C94 /* ARCL.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARCL/ARCL-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARCL/ARCL-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARCL/ARCL.modulemap";
+				PRODUCT_MODULE_NAME = ARCL;
+				PRODUCT_NAME = ARCL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEBF0141DD137197B9492652D3AF3F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2197FFF2518BB0C83559DBF6C675A962 /* FocusNode.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FocusNode/FocusNode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FocusNode/FocusNode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FocusNode/FocusNode.modulemap";
+				PRODUCT_MODULE_NAME = FocusNode;
+				PRODUCT_NAME = FocusNode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0428131A513A9B77C91A5F21241EBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FC25A881F0309E3946DCF272E24EB3 /* SCNPath.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCNPath/SCNPath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCNPath/SCNPath-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCNPath/SCNPath.modulemap";
+				PRODUCT_MODULE_NAME = SCNPath;
+				PRODUCT_NAME = SCNPath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F7D09FAD1C6D80583993122620C155 /* Build configuration list for PBXNativeTarget "SCNPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D2E1AA74001F0F03B7F7A476495684 /* Debug */,
+				F0428131A513A9B77C91A5F21241EBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3153B522FAC7F2F20E601898A82DF304 /* Build configuration list for PBXNativeTarget "Pods-landmarkar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E62B762B3962DCFEE53E0CB2D823619 /* Debug */,
+				A6D46BF1E62188966626D0B0EB8668AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C2752876705FBD12C6C9AF9860D08D3 /* Build configuration list for PBXNativeTarget "SmartHitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C156B394FB7DD55AC41D2A24BAD28116 /* Debug */,
+				4D6712703D84A21B963713CCF2D99FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF3125433D37F6899B54FEE9BB2E032 /* Build configuration list for PBXNativeTarget "FocusNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBF0141DD137197B9492652D3AF3F6E /* Debug */,
+				3962E46109050C128E55C1182759C06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6AE7EBE75FB0F7B984BB5EDCC488E4 /* Build configuration list for PBXNativeTarget "ARCoreLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C886FA8552EF8AB1FF6988177C3662E8 /* Debug */,
+				C7AF5572050F7A8F104F839F1F0718D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D210C6B4BD8D7B0D25C315D9B540345F /* Build configuration list for PBXNativeTarget "ARCL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42B61F287E7B8AED974D87E993BB82B /* Debug */,
+				001AF92A76205DB41532576CC1EF6440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

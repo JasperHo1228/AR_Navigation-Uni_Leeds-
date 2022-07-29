@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-landmarkar/Pods-landmarkar-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework
+${BUILT_PRODUCTS_DIR}/ARCoreLocation/ARCoreLocation.framework
+${BUILT_PRODUCTS_DIR}/FocusNode/FocusNode.framework
+${BUILT_PRODUCTS_DIR}/SCNPath/SCNPath.framework
+${BUILT_PRODUCTS_DIR}/SmartHitTest/SmartHitTest.framework

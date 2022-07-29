@@ -1,0 +1,6 @@
+framework module SmartHitTest {
+  umbrella header "SmartHitTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module FocusNode {
+  umbrella header "FocusNode-umbrella.h"
+
+  export *
+  module * { export * }
+}

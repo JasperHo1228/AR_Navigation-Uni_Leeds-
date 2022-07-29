@@ -13,16 +13,30 @@
 		6335937728037F94007FD10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6335937528037F94007FD10B /* Main.storyboard */; };
 		6335937928037F96007FD10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6335937828037F96007FD10B /* Assets.xcassets */; };
 		6335937C28037F96007FD10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6335937A28037F96007FD10B /* LaunchScreen.storyboard */; };
+		636344F92842E13400ABDC00 /* LinePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636344F82842E13400ABDC00 /* LinePath.swift */; };
+		636CAB6F283FE3B40040700D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636CAB6E283FE3B40040700D /* MapViewController.swift */; };
+		6382F438284E741F00FDDFE8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382F437284E741F00FDDFE8 /* TableViewController.swift */; };
+		63C0548F2880A364001212DE /* customroute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0548E2880A364001212DE /* customroute.swift */; };
+		63DBD0122889D909006547A5 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBD0112889D909006547A5 /* SCNNode+Extensions.swift */; };
+		83BACE35DE089A33D82F18AA /* Pods_landmarkar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0BEDDDBC89EB60F2DBB81C /* Pods_landmarkar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6335936C28037F94007FD10B /* landmarkar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = landmarkar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0BEDDDBC89EB60F2DBB81C /* Pods_landmarkar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_landmarkar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6335936C28037F94007FD10B /* UniLeeds AR Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UniLeeds AR Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6335936F28037F94007FD10B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6335937128037F94007FD10B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		6335937328037F94007FD10B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6335937628037F94007FD10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6335937828037F96007FD10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6335937B28037F96007FD10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		636344F82842E13400ABDC00 /* LinePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinePath.swift; sourceTree = "<group>"; };
+		636CAB6E283FE3B40040700D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6382F437284E741F00FDDFE8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		63C0548E2880A364001212DE /* customroute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customroute.swift; sourceTree = "<group>"; };
+		63DBD0112889D909006547A5 /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
+		68E541EB5FA7456AE2EDC69C /* Pods-landmarkar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-landmarkar.debug.xcconfig"; path = "Target Support Files/Pods-landmarkar/Pods-landmarkar.debug.xcconfig"; sourceTree = "<group>"; };
+		DD9D8088369E1D78ED0C1FF1 /* Pods-landmarkar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-landmarkar.release.xcconfig"; path = "Target Support Files/Pods-landmarkar/Pods-landmarkar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,24 +44,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BACE35DE089A33D82F18AA /* Pods_landmarkar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C24CCB2201ABF70EB345FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0BEDDDBC89EB60F2DBB81C /* Pods_landmarkar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6335936328037F94007FD10B = {
 			isa = PBXGroup;
 			children = (
 				6335936E28037F94007FD10B /* landmarkar */,
 				6335936D28037F94007FD10B /* Products */,
+				6AAFC6DADF696558C2FB7019 /* Pods */,
+				27C24CCB2201ABF70EB345FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		6335936D28037F94007FD10B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6335936C28037F94007FD10B /* landmarkar.app */,
+				6335936C28037F94007FD10B /* UniLeeds AR Map.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,12 +82,26 @@
 			children = (
 				6335936F28037F94007FD10B /* AppDelegate.swift */,
 				6335937128037F94007FD10B /* art.scnassets */,
+				636CAB6E283FE3B40040700D /* MapViewController.swift */,
+				6382F437284E741F00FDDFE8 /* TableViewController.swift */,
 				6335937328037F94007FD10B /* ViewController.swift */,
+				636344F82842E13400ABDC00 /* LinePath.swift */,
+				63C0548E2880A364001212DE /* customroute.swift */,
+				63DBD0112889D909006547A5 /* SCNNode+Extensions.swift */,
 				6335937528037F94007FD10B /* Main.storyboard */,
 				6335937828037F96007FD10B /* Assets.xcassets */,
 				6335937A28037F96007FD10B /* LaunchScreen.storyboard */,
 			);
 			path = landmarkar;
+			sourceTree = "<group>";
+		};
+		6AAFC6DADF696558C2FB7019 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68E541EB5FA7456AE2EDC69C /* Pods-landmarkar.debug.xcconfig */,
+				DD9D8088369E1D78ED0C1FF1 /* Pods-landmarkar.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6335937F28037F96007FD10B /* Build configuration list for PBXNativeTarget "landmarkar" */;
 			buildPhases = (
+				3BFB5F665D26DB3D613813DD /* [CP] Check Pods Manifest.lock */,
 				6335936828037F94007FD10B /* Sources */,
 				6335936928037F94007FD10B /* Frameworks */,
 				6335936A28037F94007FD10B /* Resources */,
+				4291F43CD9423DF28C4C3F4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -82,7 +123,7 @@
 			);
 			name = landmarkar;
 			productName = landmarkar;
-			productReference = 6335936C28037F94007FD10B /* landmarkar.app */;
+			productReference = 6335936C28037F94007FD10B /* UniLeeds AR Map.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,13 +173,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BFB5F665D26DB3D613813DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-landmarkar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4291F43CD9423DF28C4C3F4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-landmarkar/Pods-landmarkar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-landmarkar/Pods-landmarkar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-landmarkar/Pods-landmarkar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6335936828037F94007FD10B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C0548F2880A364001212DE /* customroute.swift in Sources */,
 				6335937428037F94007FD10B /* ViewController.swift in Sources */,
+				6382F438284E741F00FDDFE8 /* TableViewController.swift in Sources */,
+				636344F92842E13400ABDC00 /* LinePath.swift in Sources */,
 				6335937028037F94007FD10B /* AppDelegate.swift in Sources */,
+				63DBD0122889D909006547A5 /* SCNNode+Extensions.swift in Sources */,
+				636CAB6F283FE3B40040700D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +368,7 @@
 		};
 		6335938028037F96007FD10B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E541EB5FA7456AE2EDC69C /* Pods-landmarkar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -287,7 +376,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3JKF392KB8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "need to use the camera for AR";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "track location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "track location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -295,13 +386,14 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Jasper.landmarkar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jasper.UniLeeds-AR-Map";
+				PRODUCT_NAME = "UniLeeds AR Map";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,6 +402,7 @@
 		};
 		6335938128037F96007FD10B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9D8088369E1D78ED0C1FF1 /* Pods-landmarkar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,7 +410,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3JKF392KB8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "need to use the camera for AR";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "track location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "track location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -325,13 +420,14 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Jasper.landmarkar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jasper.UniLeeds-AR-Map";
+				PRODUCT_NAME = "UniLeeds AR Map";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

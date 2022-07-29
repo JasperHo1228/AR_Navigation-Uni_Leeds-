@@ -1,0 +1,6 @@
+framework module Pods_landmarkar {
+  umbrella header "Pods-landmarkar-umbrella.h"
+
+  export *
+  module * { export * }
+}
