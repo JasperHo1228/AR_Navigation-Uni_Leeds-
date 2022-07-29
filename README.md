@@ -4,4 +4,4 @@ Two main libraries have used the app to deal with the AR problem. The first one 
 
 After trying to use these two libraries, it is beneficial for people to deal with the problem of applying the AR object by using the geographical coordinates(latitudes, longitudes and altitudes). However, there is a problem that the AR route will keep jumping around. All I know so far is that it is affected by the GPS signal. 
 
-Also, the route can create a slope for uphill or downhill roads. It is because Mapkit does not include any altitudes data. However, it can get the altitude data from the current location. Therefore, it is necessary to turn the " public var ignoreAltitude = true" and keep tracking the latitudes, longitudes and altitudes.
+Also, the route cannot create a slope for uphill or downhill roads. It is because Mapkit does not include any altitudes data. However, it can get the altitude data from the current location. Therefore, it is necessary to turn the " public var ignoreAltitude = true" and keep tracking the latitudes, longitudes and altitudes.
